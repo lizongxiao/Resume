@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "这是一个在线的vercel测试",
+  name: "HelloWorld",
   props: {
     msg: String,
   },
