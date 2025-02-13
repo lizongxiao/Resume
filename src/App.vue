@@ -1,17 +1,12 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="这是一个在线的vercel测试" />
+  <HelloWorld msg="丢掉幻想，准备斗争" />
+  <MyText />
 </template>
 
-<script>
+<script setup>
 import HelloWorld from "./components/HelloWorld.vue";
-
-export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-};
+import MyText from "./components/MyText.vue";
 </script>
 
 <style>
