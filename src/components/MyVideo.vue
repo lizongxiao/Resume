@@ -27,11 +27,11 @@ const playerOptions = {
 };
 
 const handlePlay = () => {
-  console.log("视频开始播放啦！😊");
+  console.log("视频开始！😊");
 };
 
 const handlePause = () => {
-  console.log("视频暂停播放。");
+  console.log("视频暂停。");
 };
 </script>
 
