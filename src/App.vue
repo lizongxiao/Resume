@@ -2,7 +2,7 @@
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <!-- <HelloWorld msg="丢掉幻想，准备斗争" /> -->
   <!-- <MyText /> -->
-  <div>点击查看视频</div>
+  <!-- <div>点击查看视频</div> -->
   <!-- <video src="@/assets/video/Ramadan 3D Animations_free.mp4" controls></video> -->
   <MyVideo />
   <SpeedInsights />
