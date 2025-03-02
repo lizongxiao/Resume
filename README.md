@@ -1,4 +1,4 @@
-# deploy-vue
+# resume
 
 ## Project setup
 ```
