@@ -17,10 +17,11 @@ const playerOptions = {
   autoplay: false, // 不自动播放
   controls: true, // 显示控制条
   preload: "auto",
+  aspectRatio: "16:9",
   sources: [
     {
       type: "video/mp4",
-      src: mp4src, // 替换为你的视频文件路径
+      src: mp4src, // 替换为你的视频文件路径,
     },
   ],
 };
