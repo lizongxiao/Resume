@@ -5,12 +5,10 @@
   <!-- <div>点击查看视频</div> -->
   <!-- <video src="@/assets/video/Ramadan 3D Animations_free.mp4" controls></video> -->
   <MyVideo />
-  <SpeedInsights />
 </template>
 
 <script setup>
 import MyVideo from "./components/MyVideo.vue";
-import { SpeedInsights } from "@vercel/speed-insights/vue";
 </script>
 <style scoped>
 #app {
