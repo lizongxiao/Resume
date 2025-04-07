@@ -8,7 +8,7 @@
 </template>
 
 <script setup>
-import MyVideo from "./components/MyVideo.vue";
+import MyVideo from './components/MyVideo.vue';
 </script>
 <style scoped>
 #app {

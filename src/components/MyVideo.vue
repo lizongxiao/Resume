@@ -11,27 +11,27 @@
 </template>
 
 <script setup>
-import mp4src from "@/assets/video/Ramadan 3D Animations_free.mp4";
+import mp4src from '@/assets/video/Ramadan 3D Animations_free.mp4';
 
 const playerOptions = {
   autoplay: false, // 不自动播放
   controls: true, // 显示控制条
-  preload: "auto",
-  aspectRatio: "16:9",
+  preload: 'auto',
+  aspectRatio: '16:9',
   sources: [
     {
-      type: "video/mp4",
+      type: 'video/mp4',
       src: mp4src, // 替换为你的视频文件路径,
     },
   ],
 };
 
 const handlePlay = () => {
-  console.log("视频开始！😊");
+  console.log('视频开始！😊');
 };
 
 const handlePause = () => {
-  console.log("视频暂停。");
+  console.log('视频暂停。');
 };
 </script>
 
